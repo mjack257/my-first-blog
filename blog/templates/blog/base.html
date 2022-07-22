@@ -1,8 +1,8 @@
 
 
-
-{% load static %}
 <!DOCTYPE html>
+{% load static %}
+
 
 <html>
     <head>
@@ -101,10 +101,9 @@ h4 {
         <main class="container">
             <div class="row">
                 <div class="col">
-
+                {% block content %}
                 {% endblock %}
                 </div>
             </div>
         </main>
     </body>
-</html>
